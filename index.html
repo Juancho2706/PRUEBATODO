@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="js/main.js"></script></head>
+<body>
+    <div class="contenedor">
+        <div class="izquierda">
+
+        </div>
+        <div class="derecha">
+            <div class="headerbar">
+
+            </div>
+            <div class="maincontent">
+                <div class="divA">
+                    <select name="selecfolder" id="selectfolder"></select>
+                    <div>
+                        <button class="buttonnewfolder">Nueva Carpeta</button>
+                        <button class="buttonnewtodo">Nuevo To-Do</button>
+                    </div>
+                    <div class="contenedorcarpetas"></div>
+                </div>
+            </div>
+            <div class="footer">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="tituloslide">
+            <p>Nuevo To-Do</p>
+            <img src="" alt="" srcset="" class="iconos star">
+            <img src="" alt="" srcset="" class="iconos cerrar">
+        </div>
+        <div class="divtitulo">
+            <label for="Titulo">Titulo</label>
+            <input type="text" name="Titulo" id="Titulo" required title="Coloque el titulo del To-Do aca.">
+        </div>
+        <div class="divtitulo">
+            <label for="contenido">To-Do</label>
+            <textarea name="contenido" id="contenido" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button id="botoncrear">Crear</button>
+        </div>
+    </div>
+    <div class="newfolder" style="display: none;">
+        <div class="foldertitulo">
+            <p>Nueva Carpeta</p>
+            <img src="" alt="" srcset="" class="iconos cerrarcarpeta">
+        </div>
+        <div class="foldername">
+            <label for="NombredeNuevaCarpeta">Nombre de Nueva Carpeta</label>
+            <input type="text" name="NombredeNuevaCarpeta" id="NombredeNuevaCarpeta" required title="Coloque el titulo de la nueva carpeta.">
+        </div>
+        <div>
+            <button id="botoncrearcarpeta">Crear</button>
+        </div>
+    </div>
+    <div class="oscurito" style="display: none;"></div>
+</body>
+</html>
