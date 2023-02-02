@@ -45,12 +45,20 @@
             <label for="contenido">To-Do</label>
             <textarea name="contenido" id="contenido" cols="30" rows="10"></textarea>
         </div>
-        <div>
+        <div  class="divtitulo">
+            <label for="prioridad">Prioridad</label>
+            <select name="prioridad" id="prioridad">
+                <option value="Baja">Baja</option>
+                <option value="Media">Media</option>
+                <option value="Alta">Alta</option>
+            </select>
+        </div>
+        <div  style="place-self: center;">
             <button id="botoncrear">Crear</button>
         </div>
     </div>
     <div class="newfolder" style="display: none;">
-        <div class="foldertitulo">
+        <div class="tituloslide">
             <p>Nueva Carpeta</p>
             <img src="" alt="" srcset="" class="iconos cerrarcarpeta">
         </div>
